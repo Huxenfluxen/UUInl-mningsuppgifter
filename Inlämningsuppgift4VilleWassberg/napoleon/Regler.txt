@@ -1,0 +1,14 @@
+Spelet går ut på att samla korten i högar så att ett ess syns i mitten och
+omgivs av sina kungar i hörnen. Mittenhögen börjar med 6 och går i fallande
+ordning till ess, och börjar om igen från sex. Hörnen, strålarna, börjar med
+7 i stigande ordning och slutar med kung. De andra högarna som omger
+mittenhögen kallas squarePiles här, och kan hålla ett kort i taget, vilket
+som helst. Skräphögen kan ta alla kort och i obegränsad mängd. Deck, eller
+given, kan ge kort till alla. Man drar korten och släpper de på respektive hög.
+
+Knapparna är som de låter. Knappen "ta skräphög" tar skräphögen när given är
+tom och lägger den på givens plats. Man kan ändra på maxRounds om man vill
+ha fler försök till att klara spelet. Knappen "Fyll ut" är tänkt att göra det
+lite bekvämt för spelaren, så om den klickas tas kort från skräphög eller given
+och läggs ut på tomma platser i fyrkanterna, eller skräphögen om den skulle
+vara tom, helt utan någon förändring av spelets gång.
